@@ -20,12 +20,6 @@ status:
     status: "False"
     type: RolloutComplete
   resources:
-  - group: rbac.authorization.k8s.io
-    kind: ClusterRole
-    name: system:konnectivity-agent
-  - group: rbac.authorization.k8s.io
-    kind: ClusterRoleBinding
-    name: system:konnectivity-agent
   - group: ""
     kind: ServiceAccount
     name: konnectivity-agent
